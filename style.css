@@ -12,22 +12,6 @@ body {
     margin-left: 10%;
     margin-right: 10%;
 }
-
-/*.loader {
-  border: 14px solid #13b829;
-  border-top: 14px solid #b4ee99;
-  border-radius: 50%;
-  color:green;
-  animation: spin 1s linear infinite;
-  margin-left: 10%; 
-}
-
-@keyframes spin {
-  20% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-*/
-
 header {
   background-color: #333333;
   height:40px;
@@ -49,6 +33,9 @@ nav {
 nav a {
   color: #ff0099;
   margin: 5px;
+}
+a:hover {
+  color: yellow;
 }
 h1 {
   font-size: 2.8em;
