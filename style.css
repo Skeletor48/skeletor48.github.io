@@ -2,67 +2,71 @@
 
 html {
   font-family: 'Spectral SC', serif;   
-  background: url(./IMG/topography.png) center fixed; 
+  color: #39FF14;
+  background: url(./IMG/web_background_2.jpg) no-repeat center center fixed;  
   font-size: 18px;
   }
 body {
   margin: 0px;
 }
-.szovegtest, .szovegtest2, .definiciok {
+div {
     margin-left: 10%;
     margin-right: 10%;
 }
 header {
-  background-color: #333333;
-  height:40px;
-}
-#headerpic {
-  padding: 6px;
-  width: 30px;
-  height: 30px;
-  float: left;
-  display: inline;
-  margin-left: 10%; 
+  background-color: black;
+  height: 60px;
 }
 nav {
+  background-image: url(./IMG/Cowbells_Logo.png);
+  background-position: left; 
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 10%;
   text-align: right;
-  height: 40px;
   padding: 14px;
-  margin-right: 10%;
+  margin-right: 8%;
 }
 nav a {
-  color: #ff0099;
+  color: #39FF14;
   margin: 5px;
+  text-decoration: none;
 }
-a:hover {
-  color: yellow;
+a[href]:hover {
+  color: #168C00;
+}
+a[href]:active {
+  color: white;
 }
 h1 {
   font-size: 2.8em;
   padding-top: 3%;
 }
-h3#title {
-  color: #ff0099;
+#title {
+  color: whitesmoke;
   font-size: 1.7em;
 }
-p, .definiciok {
+p, dl {
   font-family: 'consolas', courier;
 }
-#haromvonal {
-  padding: 2%;
+#threedash {
+  padding: 1%;
   text-align: center;
   font-size: 2.8em;
 }
 h2 {
   text-align: center;
   font-size: 2.4em;
+  padding: 1em;
 }
 h3 {
   font-size: 1.7em;
+  padding: 0.8em;
 }
 dt {
   font-weight: bold;
-  padding: 4px; 
+  padding: 4px;
+  text-decoration: underline; 
 }
 dd {
   padding: 4px;
